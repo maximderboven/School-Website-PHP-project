@@ -1,0 +1,89 @@
+/*
+Theme Name: KASO MORTSEL
+Author: Derboven Maxim
+Author URL: 
+Description: The standard footer for Kaso Mortsel
+Version: 1.0
+Text Domain: kaso-mortsel
+    Created on : 3-mrt-2019, 20:23:33
+    Author     : maxim
+*/
+
+/* 3 zelfde collommen met de fotokes */
+.column1 {
+    float: left;
+    width: 30%;
+}
+.column2 {
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+
+/* Grijze box over de onbderste bollekes*/
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+.column1 img {
+    width:200px;
+}
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+  }
+  .column2{text-align: center;align-content: center;width: 100%;}
+}

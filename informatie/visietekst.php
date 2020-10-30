@@ -1,0 +1,35 @@
+<?php include("../includes/a_config.php"); ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <?php include("../includes/Template_h.php"); ?>
+    </head>
+    <body>
+        <!-- File links -->
+        <link rel="stylesheet" type="text/css" href="../styles/standard.css" />
+        <!-- Add icon library -->
+        <!-- Hero Image -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div class="row">
+            <div id="Main">
+                <div class="column left">
+                    <p class="one"> Visietekst </p>
+                    <!-- Content -->
+                    <blockquote class="inforechts">
+                        <div> &nbsp;</div><div><div><u><span>Ons waarom (ons geloof, ons motief)</span></u><u></u></div><div> &nbsp;</div><div> </div><div> &nbsp;</div><div><b>Wij geloven</b></div><div> &nbsp;</div><div><ul><li><span class="fs10">dat elke lln / personeelslid een natuurlijke leergierigheid bezit die aangewakkerd kan worden.</span><br></li><li><span class="fs10">dat elke lln mogelijkheden bezit om te leren en (verder) te studeren ook na het secundair onderwijs en tijdens het latere beroepsleven.</span><br></li><li><span class="fs10">dat we als school een belangrijke reisgenoot / metgezel (begeleider) van de lln zijn in hun ontdekkingstocht gedurende hun evolutie tot jongvolwassene.</span><br></li><li><span class="fs10">dat we door onze manier van onderwijzen jongeren een positief gevoel van eigenwaarde kunnen geven.</span><br></li><li><span class="fs10">dat kwaliteitsvol onderwijs de inzet vergt van elke leerling en elk personeelslid en bovendien het beste perspectief biedt voor de toekomst.</span><br></li><li><span class="fs10">dat we als leerling / personeelslid onze geestdrift en spiritualiteit kunnen delen met elkaar: we geloven dat als we op dezelfde golflengte zitten er resonantie tussen elkaar ontstaat.</span><br></li><li><span class="fs10">dat elke lln / personeelslid rationeel en spiritueel kan groeien tot een zelfsturend persoon.</span><br></li><li><span class="fs10">in de voortdurende dialoog die ontstaat vanuit een grote diversiteit tussen mensen.</span><br></li><li><span class="fs10">in het zorg dragen voor elkaar: wij geloven dat we met elkaar een verbond aangaan waaruit een duurzame loyaliteit naar elkaar ontstaat.</span><br></li><li><span class="fs10">dat elke leerling / personeelslid elke dag opnieuw zijn best wil doen.</span><br></li><li><span class="fs10">dat we in ons onderwijs rekening moeten houden met een steeds veranderende maatschappelijke context.</span><br></li><li><span class="fs10">dat “het instrument van de dialoogschool” en “het Referentiekader voor een Opvoedingsproject DIM-scholen” uitgangspunt en referentie zijn om onze katholieke identiteit gestalte te geven.</span><br></li></ul><div><br></div></div><div><div> &nbsp;</div><div><u><span class="fs14">Ons hoe (onze waarden / normen = onze handelingen die ons geloof uitdrukken)</span></u></div><div> &nbsp;</div><div> </div><div> &nbsp;</div><div><ul><li><span class="fs10">Niemand van de schoolgemeenschap stelt zichzelf centraal. <br></span><span class="fs8">Ieder oefent zich in het bewust worden dat het (school)leven niet rond het individu draait als centrum van het (onderwijs)gebeuren Dit heeft voor ons te maken met een groei in integriteit, waarachtigheid en echtheid wat staat tegenover schijn en illusie.</span><span class="fs10"> </span></li></ul></div><div> &nbsp;</div><div><ul><li><span class="fs10">We luisteren aandachtig naar elkaar en geven daadwerkelijk respons.</span><span class="fs10"> </span></li></ul></div><div> &nbsp;</div><div><ul><li><span class="fs10">We nemen verantwoordelijkheid voor anderen op.</span><span class="fs10"> </span></li></ul></div><div> &nbsp;</div><div><ul><li><span class="fs10">We streven ernaar om in alle omstandigheden positief aanwezig te zijn.</span><span class="fs10"> </span></li></ul></div><div> &nbsp;</div><div><ul><li><span class="fs10"> Leerlingen en personeelsleden worden gastvrij opgenomen in onze school.<br></span><span class="fs8">Wij nemen leerlingen / personeelsleden op in de school. Dit ‘opnemen’ is veel meer dan hen alleen maar ontvangen, meer dan alleen maar nagaan of zij voldoen aan de voorwaarden. ‘Opnemen’ betekent voor ons dat wij hun metgezellen worden in een groeiproces naar hun ware (en niet ingebeelde) grandeur.<br></span><span class="fs8">We bieden leerlingen meer dan alleen wat de overheid / inspectie / leerplannen van ons vragen.<br></span><span class="fs8">We bekijken de leerling niet als iemand die iets van ons vraagt en dat wij dan aanbieden, maar als iemand die ons iets komt brengen (in de christelijke traditie is de gastvrijheid de plaats waarin de God van de traditie zich te kennen geeft; de gast is Christus zelf). In dat opzicht is de leerling voor ons een geschenk.</span><span class="fs10"> </span></li></ul></div><div> &nbsp;</div><div><ul><li><span class="fs10">We willen een school zijn waarin leerlingen en personeelsleden op elkaars verbondenheid kunnen rekenen.</span><br></li><li><span class="fs10">Onze regels zijn gericht op het creëren van een leer-, leef- en werkomgeving waarin men elkaar als persoon respecteert. <br></span><span class="fs8">Het is de randvoorwaarde om te groeien tot een vrij en vreugdevol mens. Leerlingen / personeelsleden zijn daarin bereid hun individuele belangen ondergeschikt te maken aan de wens om te behoren tot de gemeenschap waarin iedereen kan rekenen op de goede zorgen van anderen. Hierbij willen we gewenst gedrag belonen, aanleren en bestendigen maar willen tegelijkertijd niet gewenst gedrag afkeuren en ontmoedigen</span><span class="fs10"> </span></li></ul></div><div><ul><li><span class="fs11 ff1">We willen een schoolcontext creëren waarin het welbevinden van mensen centraal staat. We willen een school zijn waarin iedereen zich thuis, veilig en gerespecteerd voelt. Alleen in zo’n omgeving kan er geleerd worden.</span><br></li></ul>
+                                    </blockquote>
+                                </div>
+                                <div class="column right">
+                                    <!-- PADDING: BOVENpx RECHTSpx ONDERpx LINKSpx; -->
+                                    <p class="one"> Navigatie</p>
+                                    <blockquote class="inforechts">
+                                    <?php include ("../includes/Template_InformatieNAV.php") ?>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        </body>
+                        <footer>
+                            <?php include("../includes/Template_f.php"); ?>
+                        </footer>
+                        </html>

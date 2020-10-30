@@ -1,0 +1,10 @@
+select j.naam, r.naam, v.naam, vr.uren
+from uren vr
+inner join jarengraad j
+on vr.jarengraadID=j.ID
+inner join vakken v
+on vr.vakkenID=v.ID
+inner join richtingen r
+on vr.richtingenID=r.ID
+where r.ID=1
+order by r.naam, v.naam, vr.uren

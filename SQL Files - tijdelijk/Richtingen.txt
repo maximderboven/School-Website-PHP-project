@@ -1,0 +1,15 @@
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'A-stroom');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'B-stroom');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Beroepsvoorbereidend leerjaar');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Ondernemen en IT');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Office (Kantoor)');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Haarzorg');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Ondernemen en Marketing (Handel)');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Office management & comm (Secretariaat-talen)');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'IT & Netwerken (Informaticabeheer)');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Office & Logistics');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Boekhouden-Informatica');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Haarzorg');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Logistics');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Office & Logistics');
+INSERT INTO `richtingen` (`ID`, `richtingnaam`) VALUES (NULL, 'Haarstylist');

@@ -1,0 +1,95 @@
+/*
+Theme Name: KASO MORTSEL
+Author: Derboven Maxim
+Author URL: 
+Description: The standard footer for Kaso Mortsel
+Version: 1.0
+Text Domain: kaso-mortsel
+    Created on : 3-mrt-2019, 20:23:14
+    Author     : maxim
+*/
+
+/* NIEUWS WIDTH VAN DE 2 KOLOMMEN, OMDAT DE TEXT ANDER TE GEPROPT IS */
+.left0 {
+    width: 70%;
+}
+
+.right0 {
+    width: 30%;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Create three equal columns that floats next to each other */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #0C2C56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    padding: 5px 5px 5px 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #ccc;
+}
+input[type=reset]:hover {
+    background-color: #ccc;
+}
+input[type=reset] {
+    background-color: #ccc;
+    background-color: #0C2C56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    padding: 5px 5px 5px 5px;
+}
+/*  text voor de invul plaatse*/
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+/* invul plaatse van de form */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* KOLOM VAN DE text en invul plaatsen */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/* de linker kant met tijden opmaak txt */
+.infoTijden {
+    font-size: 15px;
+}
+/* KOLOM VAN DE RADIO BUTTONS */
+.column4 {
+    float: left;
+    width: 50%;
+}

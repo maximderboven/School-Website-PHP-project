@@ -1,0 +1,32 @@
+TAKEN VAN SCHOOL:
+
+Studieaanbod begin tekst maken
+Kalender invullen
+Main Info invullen
+Ouderraad en clb invullen
+informatie inschrijvingen opmaken.
+studieaanbod
+
+ERRORS FIXEN:
+
+Als nieuws titel = 0 niet selecteren
+Verkleine en op bugs checken (hamburger menu op gsm).
+
+VOLLEDIG NOG MAKEN:
+
+vooruitzicht uit database ophalen en bewerken in adminpage aanklikken speciaal event en daarop aftellen.
+Kalender nederlands zetten
+elk vakje studieaanbod linken met een infopage
+informatie ook laten invullen met AJAX
+Adminpagina volledig duidelijk maken etc
+backdoor settlen
+Ctrl C blokeren
+
+DESIGN
+
+Buttons opmaken
+Navbar designen
+kalender designen
+kalenderpage beetje netjes maken
+Inschrijvingen form beetje opmaken
+Studieaanbod filters designen

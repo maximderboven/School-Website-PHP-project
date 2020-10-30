@@ -1,0 +1,92 @@
+/*
+Theme Name: KASO MORTSEL
+Author: Derboven Maxim
+Author URL: 
+Description: Theme for Kaso Mortsel footer
+Version: 1.0
+Text Domain: kaso-mortsel
+*/
+
+/* OM BOXEN TE MAKEN VOOR INFO */
+* {
+    box-sizing: border-box;
+}
+/* OORSPRONKELIJKE NAAMPLAATSEN OPMAAK //GEBRUIK EERST DIV ID OPMAAK\\ */
+/* footer {
+    background-color: #313335;
+    color: #FFFFFF;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+} /*
+/* DIV IDS OPMAAK */
+/* VOLLEDIGE TEKSTOPMAAK */
+
+/* bij alle <p> tags 10px margin */
+p{
+    margin:10px;
+}
+
+/* END top button */
+/*3 KOLLOMMEN FOOTER */
+.kolom {
+    width: 33.33%;
+    float: left;
+}
+
+.kolom#links {
+    text-align:right;
+}
+
+.kolom#rechts {
+    text-align:left;
+}
+/* CLEAR DE FLOATS NA DE KOLLOMMEN */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* LINK DESIGN IN FOOTER */
+a:link, a:active, a:visited{
+display: inline-block;
+    color: white;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    display: inline-block;
+    color: grey;
+    font-family: "Calibri Light";
+    text-decoration: none;
+}
+a {
+    display: inline-block;
+}
+@media screen and (max-width: 600px) {
+    .kolom#links {
+    text-align:center;
+    }
+
+    .kolom#rechts {
+    text-align:center;
+    }
+}
+/* Footer design */
+    footer {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient( rgba(49, 51, 53, 0.95), rgba(49, 51, 53, 0.95)) , url(/KaSO-Mortsel/includes/images/footer3.jpg);
+    background-size: 100%;
+    background-color: #313335;
+    color: #FFFFFF!important;
+    font-family: "Calibri Light"!important;
+    font-weight: bold!important;
+    text-align: center!important;
+}​
+
+
+/* kolommen gaan boven elkaar als scherm verkleint */

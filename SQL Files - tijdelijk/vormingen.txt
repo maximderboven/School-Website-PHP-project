@@ -1,0 +1,7 @@
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Algemene vorming');
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Talen');
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Bedrijfsgerichte vorming');
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Keuzegedeelte');
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Specifieke vorming');
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Praktijkgerichte vorming');
+INSERT INTO `vormingen` (`ID`, `Vormingnaam`) VALUES (NULL, 'Praktijkvakken');

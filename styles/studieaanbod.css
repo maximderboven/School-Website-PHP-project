@@ -1,0 +1,80 @@
+/*
+Theme Name: KASO MORTSEL
+Author: Derboven Maxim
+Author URL: 
+Description: The standard footer for Kaso Mortsel
+Version: 1.0
+Text Domain: kaso-mortsel
+*/
+/* 
+    Created on : 3-mrt-2019, 18:30:20
+    Author     : maxim
+*/
+
+.container {
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.image {
+    display: block;
+    width: 250px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    background: rgba(0,0,0, 0.7);
+    overflow: hidden;
+    width: 250px;
+    height: 35%;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.columnf {
+    float: left;
+    width: 33.33%;
+    padding-right: 10px;
+}
+@media screen and (max-width: 600px) {
+    .columnf {
+        width: 100%;
+    }
+}
+.graden {
+    background-color: #ccc;
+    border: none;
+    color: white;
+    padding: 2px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

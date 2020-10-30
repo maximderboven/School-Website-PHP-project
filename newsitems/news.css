@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-feb-2019, 18:53:40
+    Author     : Maxim Derboven
+*/
+html {
+}
+#Main {
+    height: 100%;
+    /* margin: BOVENpx RECHTSpx ONDERpx LINKSpx; */
+    /* PADDING: BOVENpx RECHTSpx ONDERpx LINKSpx; */
+    padding: 0% 20% 0% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+.left {
+    width: 75%;
+}
+.right {
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p.one {
+    border-style: solid;
+    border-color: #0C2C56;
+    border: 10px solid #0C2C56;
+    border-radius: 3px;
+    background-color: #0C2C56;
+    color: white;
+    font-weight: bold;
+    font-family: "Calibri Light";
+    font-size: 18px;
+    margin: 0px 10px 10px 0px;
+    width:100%;
+}
+.Infofoto{
+    height: auto; width: 500px; padding: 0px 0px 0px 10px;
+}
+
+.inforechts {
+    margin: 0px 10px 10px 0px; padding: 10px; background-color: #EFEEEE; border-style: solid; border-color: #ccc; border-width: thin;
+    width: 100%!important;
+}
+.previous {
+    color: #0C2C56!important;
+    text-align: left!important;
+    display:inline-block!important;
+}
+.next {
+    color: #0C2C56!important;
+    display:inline-block!important;
+    text-align: right!important;
+    float: right;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .Infofoto{
+    height: auto; width: 300px; padding: 0px 0px 0px 10px;
+}
+}
+@media (max-width: 1200px) {
+    #Main{
+        padding: 0px 10px 0px 10px;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 1000px) {
+    #Main{
+        padding: 0px 5px 0px 5px;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 600px) {
+    #Main{
+        padding: 0px 0px 0px 0px;
+        overflow-x: hidden;
+    }
+}

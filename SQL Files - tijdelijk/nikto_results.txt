@@ -1,0 +1,26 @@
+- Nikto v2.1.6/2.1.5
++ Target Host: maxim.kaso-mortsel.be
++ Target Port: 80
++ GET The anti-clickjacking X-Frame-Options header is not present.
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ GET Server may leak inodes via ETags, header found with file /KaSO-Mortsel/whXBzGwV.tcl, inode: 32d, size: 5c858eee, mtime: d260e37b39922eb0;;;
++ OPTIONS Allowed HTTP Methods: OPTIONS, HEAD, GET, POST 
++ GET /KaSO-Mortsel/admin/config.php: PHP Config file may contain database IDs and passwords.
++ OSVDB-9238: GET /KaSO-Mortsel/supporter/index.php?t=tickettime&id=&lt;script&gt;<script>alert('Vulnerable')</script>&lt;/script&gt;: MyHelpdesk from http://myhelpdesk.sourceforge.net/ versions v20020509 and older are vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ OSVDB-2322: GET /KaSO-Mortsel/search.php?searchstring=<script>alert(document.cookie)</script>: Gallery 1.3.4 and below is vulnerable to Cross Site Scripting (XSS). Upgrade to the latest version. BID-8288.
++ GET /KaSO-Mortsel/phpwebsite/index.php?module=calendar&calendar[view]=day&month=2&year=2003&day=1+%00\"><script>alert('Vulnerable')</script>: phpWebSite 0.9.x and below are vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules/Forums/bb_smilies.php?bgcolor1=\"><script>alert('Vulnerable')</script>: PHP-Nuke 6.0 is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules.php?op=modload&name=WebChat&file=index&roomid=<script>alert('Vulnerable')</script>: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules.php?op=modload&name=Members_List&file=index&letter=<script>alert('Vulnerable')</script>: This install of PHP-Nuke's modules.php is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules.php?op=modload&name=Guestbook&file=index&entry=<script>alert('Vulnerable')</script>: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules.php?name=Your_Account&op=userinfo&uname=<script>alert('Vulnerable')</script>: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules.php?name=Surveys&pollID=<script>alert('Vulnerable')</script>: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ OSVDB-6226: GET /KaSO-Mortsel/modules.php?name=Stories_Archive&sa=show_month&year=<script>alert('Vulnerable')</script>&month=3&month_l=test: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ OSVDB-6226: GET /KaSO-Mortsel/modules.php?name=Stories_Archive&sa=show_month&year=2002&month=03&month_l=<script>alert('Vulnerable')</script>: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ OSVDB-5914: GET /KaSO-Mortsel/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=02&ttitle=<script>alert('Vulnerable')</script>: This install of PHP-Nuke is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/modules.php?name=Classifieds&op=ViewAds&id_subcatg=75&id_catg=<script>alert('Vulnerable')</script>: The PHP-Nuke forum is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET Cookie PHPSESSID created without the httponly flag
++ OSVDB-5034: GET /KaSO-Mortsel/admin/login.php?action=insert&username=test&password=test: phpAuction may allow user admin accounts to be inserted without proper authentication. Attempt to log in with user 'test' password 'test' to verify.
++ OSVDB-5098: GET /KaSO-Mortsel/sysuser/docmgr/iecreate.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /KaSO-Mortsel/admin/login.php: Admin login page/section found.
